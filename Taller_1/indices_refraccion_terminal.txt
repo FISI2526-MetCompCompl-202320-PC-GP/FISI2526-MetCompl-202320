@@ -1,0 +1,8 @@
+cd ~/Documents/Métodos/Compl-Talleres/FISI2526-MetCompl-202320
+cd Taller_1/
+
+CREACIÓN DE MATRIALES.TXT Y LA ADICIÓN DE SU UNICA COLUMNA
+touch materiales.txt
+awk -F "," 'NR>1 {print $3}' indices_refraccion.csv > materiales.txt
+
+DESCARGA DE ARCHIVOS
