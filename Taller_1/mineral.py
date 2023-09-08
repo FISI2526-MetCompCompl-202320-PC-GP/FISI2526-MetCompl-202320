@@ -42,3 +42,14 @@ class Mineral:
         print(f"Dureza: {self.dureza}")
         print(f"Tipo de Rompimiento: {'Fractura' if self.rompimiento_fractura else 'Escisión'}")
         print(f"Sistema de Organización de Átomos: {self.sistema_cristalino}")
+
+
+
+#2.3
+def silicatos(listaminerales, self):
+    silicatos=[]
+    for k in listaminerales:
+        mineralcomp=Mineral.init[6]
+        if Mineral.es_silicato(self)==True:
+            silicatos.append(self.nombre)
+    return(silicatos)
